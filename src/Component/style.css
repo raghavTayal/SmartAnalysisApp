@@ -1,0 +1,42 @@
+#form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+label {
+  color: #696969;
+  margin-bottom: 5px;
+  font: 1.2em;
+}
+
+input {
+  height: 1.5em;
+  border: 0;
+  border-bottom: 0.5px solid #ffb6c1;
+  width: 90%;
+  margin-bottom: 10px;
+}
+select {
+  height: 1.5em;
+  border: 0;
+  border-bottom: 0.5px solid #ffb6c1;
+  width: 90%;
+  margin-bottom: 20px;
+}
+#report {
+  display: flex;
+  flex-direction: column;
+}
+#row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+#results {
+  margin-left: 30px;
+}
+#params {
+  padding: 8px;
+  font-size: 20px;
+}
